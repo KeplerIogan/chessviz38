@@ -1,4 +1,6 @@
 #include <stddef.h>
+#ifndef H_BOARD
+#define H_BOARD
 
 typedef struct{
 
@@ -7,6 +9,7 @@ typedef struct{
     int colore;
 
 }board;
+#endif
 
 int new_board();
 
